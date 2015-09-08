@@ -1,0 +1,112 @@
+= Comment contribuer à un projet Eclipse ?
+:source-highlighter: highlightjs
+:revealjsdir: ../reveal.js
+:revealjs_theme: white
+
+== Qui suis je ?
+
+Gautier de SAINT MARTIN LACAZE
+
+Développeur Java / JavaScript en freelance
+
+Twitter : https://twitter.com/darkjabberwock[@darkjabberwock]
+
+== Sondage
+
+== C'est quoi contribuer ?
+
+[%step]
+* Rapporter les bugs
+* Proposer des améliorations
+* Assister les utilisateurs
+* Fournir du code
+
+== Les outils de la fondation Eclipse 
+
+[%step]
+* Un bugzilla
+* Forum / mailing-list 
+* Un wiki
+* Git / Gerrit
+
+== Les étapes à suivre
+
+[%step]
+* Créer un compte
+* Signer le CLA
+* Récupérer le code (git)
+* Modifier le code
+* Commiter
+* Pusher sur Gerrit
+* Faire les aller-retour avec l'équipe
+
+== Création d'un compte 
+
+image::2015-09-contribuer-projet-eclipse/create-account-1.png[Create Eclipse account]
+
+== Création d'un compte 
+
+image::2015-09-contribuer-projet-eclipse/create-account-2.png[Create Eclipse account]
+
+== Signer le CLA
+
+Eclipse Foundation Contributor License Agreement
+
+Plus d'info : http://www.eclipse.org/legal/CLA.php
+
+== Récupérer le code
+
+A la fondation directement : https://git.eclipse.org/c/
+
+Mais également sur github : https://github.com/eclipse
+
+== Encore faut-il le trouver...
+
+image::2015-09-contribuer-projet-eclipse/repositories-list.png[Repositories list]
+
+== Encore faut-il le trouver...
+
+image::2015-09-contribuer-projet-eclipse/lost-in-the-sea.gif[Lost in the code repositories]
+
+== Ecrire du code
+
+== Bien écrire son message de commit
+
+* Ajouter un "Change-Id"
+* Ajouter un signed-off-by
+
+== Bien écrire son message de commit
+
+image::2015-09-contribuer-projet-eclipse/commit-message.png[Commit message]
+
+== Configurer le push vers Gerrit 
+
+* Générer des clés ssh
+* Changer l'url de push
+** ssh://gdesaintmartinlacaze@git.eclipse.org:29418/jsdt/webtools.jsdt
+
+== Pousser et c'est ok
+
+image::2015-09-contribuer-projet-eclipse/fail-gifs-2-26.gif[code push fail]
+
+== Amender le commit et repousser
+
+image::2015-09-contribuer-projet-eclipse/commit-message-ok.png[Commit message ok]
+
+== Vérification du push
+
+image::2015-09-contribuer-projet-eclipse/commit-on-gerrit.png[Commit on gerrit]
+
+== Comparaison de fichier en ligne
+
+image::2015-09-contribuer-projet-eclipse/compare-file-on-gerrit.png[Compare file on gerrit]
+
+== Questions ?
+
+== Liens utiles	
+
+* Bugzilla : https://bugs.eclipse.org/bugs/
+* Forum : https://www.eclipse.org/forums/
+* Mailing lists : https://dev.eclipse.org/mailman/listinfo
+* Wiki : https://wiki.eclipse.org/Main_Page
+* Page wiki pour Gerrit : https://wiki.eclipse.org/Gerrit

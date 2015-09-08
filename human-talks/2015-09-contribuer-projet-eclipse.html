@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Comment contribuer à un projet Eclipse ?</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="../reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="../reveal.js/css/theme/white.css" id="theme"><link href="../reveal.js/lib/css/zenburn.css" rel="stylesheet"><script type="text/javascript">document.write( '<link rel="stylesheet" href="../reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section><h2>Comment contribuer à un projet Eclipse ?</h2><p><small></small></p></section><section id="_qui_suis_je"><h2>Qui suis je ?</h2><div class="paragraph"><p>Gautier de SAINT MARTIN LACAZE</p></div>
+<div class="paragraph"><p>Développeur Java / JavaScript en freelance</p></div>
+<div class="paragraph"><p>Twitter : <a href="https://twitter.com/darkjabberwock">@darkjabberwock</a></p></div></section>
+<section id="_sondage"><h2>Sondage</h2></section>
+<section id="_c_est_quoi_contribuer"><h2>C&#8217;est quoi contribuer ?</h2><div class="ulist"><ul><li class="fragment"><p>Rapporter les bugs</p></li><li class="fragment"><p>Proposer des améliorations</p></li><li class="fragment"><p>Assister les utilisateurs</p></li><li class="fragment"><p>Fournir du code</p></li></ul></div></section>
+<section id="_les_outils_de_la_fondation_eclipse"><h2>Les outils de la fondation Eclipse</h2><div class="ulist"><ul><li class="fragment"><p>Un bugzilla</p></li><li class="fragment"><p>Forum / mailing-list</p></li><li class="fragment"><p>Un wiki</p></li><li class="fragment"><p>Git / Gerrit</p></li></ul></div></section>
+<section id="_les_étapes_à_suivre"><h2>Les étapes à suivre</h2><div class="ulist"><ul><li class="fragment"><p>Créer un compte</p></li><li class="fragment"><p>Signer le CLA</p></li><li class="fragment"><p>Récupérer le code (git)</p></li><li class="fragment"><p>Modifier le code</p></li><li class="fragment"><p>Commiter</p></li><li class="fragment"><p>Pusher sur Gerrit</p></li><li class="fragment"><p>Faire les aller-retour avec l&#8217;équipe</p></li></ul></div></section>
+<section id="_création_d_un_compte"><h2>Création d&#8217;un compte</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/create-account-1.png" alt="Create Eclipse account"></div></div></section>
+<section id="_création_d_un_compte_2"><h2>Création d&#8217;un compte</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/create-account-2.png" alt="Create Eclipse account"></div></div></section>
+<section id="_signer_le_cla"><h2>Signer le CLA</h2><div class="paragraph"><p>Eclipse Foundation Contributor License Agreement</p></div>
+<div class="paragraph"><p>Plus d&#8217;info : <a href="http://www.eclipse.org/legal/CLA.php" class="bare">http://www.eclipse.org/legal/CLA.php</a></p></div></section>
+<section id="_récupérer_le_code"><h2>Récupérer le code</h2><div class="paragraph"><p>A la fondation directement : <a href="https://git.eclipse.org/c/" class="bare">https://git.eclipse.org/c/</a></p></div>
+<div class="paragraph"><p>Mais également sur github : <a href="https://github.com/eclipse" class="bare">https://github.com/eclipse</a></p></div></section>
+<section id="_encore_faut_il_le_trouver"><h2>Encore faut-il le trouver&#8230;&#8203;</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/repositories-list.png" alt="Repositories list"></div></div></section>
+<section id="_encore_faut_il_le_trouver_2"><h2>Encore faut-il le trouver&#8230;&#8203;</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/lost-in-the-sea.gif" alt="Lost in the code repositories"></div></div></section>
+<section id="_ecrire_du_code"><h2>Ecrire du code</h2></section>
+<section id="_bien_écrire_son_message_de_commit"><h2>Bien écrire son message de commit</h2><div class="ulist"><ul><li><p>Ajouter un "Change-Id"</p></li><li><p>Ajouter un signed-off-by</p></li></ul></div></section>
+<section id="_bien_écrire_son_message_de_commit_2"><h2>Bien écrire son message de commit</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/commit-message.png" alt="Commit message"></div></div></section>
+<section id="_configurer_le_push_vers_gerrit"><h2>Configurer le push vers Gerrit</h2><div class="ulist"><ul><li><p>Générer des clés ssh</p></li><li><p>Changer l&#8217;url de push</p><div class="ulist"><ul><li><p>ssh://gdesaintmartinlacaze@git.eclipse.org:29418/jsdt/webtools.jsdt</p></li></ul></div></li></ul></div></section>
+<section id="_pousser_et_c_est_ok"><h2>Pousser et c&#8217;est ok</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/fail-gifs-2-26.gif" alt="code push fail"></div></div></section>
+<section id="_amender_le_commit_et_repousser"><h2>Amender le commit et repousser</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/commit-message-ok.png" alt="Commit message ok"></div></div></section>
+<section id="_vérification_du_push"><h2>Vérification du push</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/commit-on-gerrit.png" alt="Commit on gerrit"></div></div></section>
+<section id="_comparaison_de_fichier_en_ligne"><h2>Comparaison de fichier en ligne</h2><div class="imageblock" style=""><div class="content"><img src="2015-09-contribuer-projet-eclipse/compare-file-on-gerrit.png" alt="Compare file on gerrit"></div></div></section>
+<section id="_questions"><h2>Questions ?</h2></section>
+<section id="_liens_utiles"><h2>Liens utiles</h2><div class="ulist"><ul><li><p>Bugzilla : <a href="https://bugs.eclipse.org/bugs/" class="bare">https://bugs.eclipse.org/bugs/</a></p></li><li><p>Forum : <a href="https://www.eclipse.org/forums/" class="bare">https://www.eclipse.org/forums/</a></p></li><li><p>Mailing lists : <a href="https://dev.eclipse.org/mailman/listinfo" class="bare">https://dev.eclipse.org/mailman/listinfo</a></p></li><li><p>Wiki : <a href="https://wiki.eclipse.org/Main_Page" class="bare">https://wiki.eclipse.org/Main_Page</a></p></li><li><p>Page wiki pour Gerrit : <a href="https://wiki.eclipse.org/Gerrit" class="bare">https://wiki.eclipse.org/Gerrit</a></p></li></ul></div></section></div></div><script src="../reveal.js/lib/js/head.min.js"></script><script src="../reveal.js/js/reveal.js"></script><script type="text/javascript">// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'white',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: '../reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '../reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: '../reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: '../reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
